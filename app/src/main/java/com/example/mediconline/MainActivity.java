@@ -3,6 +3,7 @@ package com.example.mediconline;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -25,4 +26,6 @@ public class MainActivity extends AppCompatActivity {
         Timer tiempo =new Timer();
         tiempo.schedule(tarea,3000);
     }
+
+
 }
